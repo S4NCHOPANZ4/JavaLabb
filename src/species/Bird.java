@@ -21,11 +21,11 @@ public class Bird extends Animal{
         this.canFly = canFly;
     }
 
-    public boolean isFeathers() {
+    public boolean getFeathers() {
         return feathers;
     }
 
-    public boolean isCanFly() {
+    public boolean getCanFly() {
         return canFly;
     }
 

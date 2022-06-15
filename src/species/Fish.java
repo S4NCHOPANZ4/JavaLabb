@@ -5,7 +5,7 @@ public class Fish extends Animal{
     private boolean hasGills;
 
     public Fish(){
-        super(0.0d,0.0d,"reptile","cold");
+        super(0.5d,100d,"reptile","cold");
         this.liveInWater = true;
         this.hasGills = true;
     }
@@ -16,11 +16,11 @@ public class Fish extends Animal{
         this.hasGills = hasGills;
     }
 
-    public boolean isLiveInWater() {
+    public boolean getLiveInWater() {
         return liveInWater;
     }
 
-    public boolean isHasGills() {
+    public boolean getHasGills() {
         return hasGills;
     }
 }

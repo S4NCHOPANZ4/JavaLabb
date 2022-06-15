@@ -1,16 +1,18 @@
+import Animals.Crocodile;
+import Animals.Eagle;
+import Animals.Eel;
+
+import javax.swing.text.Style;
+
 public class Main {
     public static void main(String[] args) {
-        Crocodile crocodile = new Crocodile(300,100,"Reptile",
-                "Cold",true,true,"Soft");
-        crocodile.showInfo();
 
-        Eel eel = new Eel(80,3600,"Fish","Hot",true,true,
-                true);
-        eel.showInfo();
-
-        Eagle eagle = new Eagle(100,6000,"Bird","Hot",
-                true,true);
-        eagle.showInfo();
+        Crocodile croc = new Crocodile();
+        System.out.println(croc.showInfo());
+        Eel eel = new Eel();
+        System.out.println(eel.showInfo());
+        Eagle eagle = new Eagle();
+        System.out.println(eagle.showInfo());
 
     }
 }
